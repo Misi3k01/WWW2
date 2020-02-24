@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            console.log("DOM wczytany.");
+            // Pierwsza metoda (let div1 = document.getElementById("div1");)
+            // let div1 = document.getElementById("div1");
+            // Druga metoda (let div1 = document.querySelector('#div1');)
+            let div1 = document.querySelector('#div1');
+            // div1.addEventListener('click', function() {
+            //    alert('Klik');
+            // });
+            div1.onclick = function() {
+                alert('Klik');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div onclick="alert('klik')">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae est inventore eum eligendi possimus totam iusto, beatae, ratione cum error omnis eos animi dolore hic, velit aliquid autem. Ut, soluta?</div>
+    <div id="div1">Eos, non sit aperiam quod quam magni explicabo debitis! Assumenda id ipsa a rem numquam accusantium expedita suscipit facere, amet obcaecati. Qui aut suscipit error possimus in alias cumque ea.</div>
+    <div>Vero numquam porro, labore reiciendis maxime excepturi reprehenderit pariatur ad incidunt neque eligendi. Obcaecati odit beatae impedit debitis possimus esse veritatis. Laborum vero amet perspiciatis, inventore a corporis. Recusandae, provident.</div>
+    <div>Perferendis, autem eius, maxime aliquam sunt id fuga fugiat alias blanditiis accusantium quas minima asperiores quia. Quibusdam pariatur veritatis saepe reprehenderit molestiae, mollitia voluptate hic debitis eius dicta ut ex.</div>
+    <div>Illo minima, praesentium temporibus tempore nostrum vel repellendus, delectus beatae inventore, dolores ea molestiae sequi omnis modi. Maiores, non itaque officia vitae commodi perferendis iusto labore unde quasi voluptates dolore!</div>
+    <div>Ipsa eum aut quo nemo repellendus unde ipsum laudantium qui voluptas cumque dolorem reiciendis nobis eos possimus beatae soluta fugiat, quae distinctio corrupti suscipit necessitatibus ad numquam itaque dolor. Eum?</div>
+    <div>Voluptatem at libero, nam, vitae facere nulla necessitatibus quasi expedita, voluptatibus quibusdam porro nesciunt obcaecati quae reiciendis rem impedit est. Ipsam numquam omnis quisquam sint illo consequatur alias aliquam accusantium.</div>
+    <div>Voluptate deleniti asperiores nemo atque ipsam nisi reiciendis, error libero dolorum minima totam blanditiis. Eveniet vel, eligendi dolor neque aspernatur voluptatum, enim quasi, maxime eum quae dolores sunt hic amet.</div>
+</body>
+</html>
