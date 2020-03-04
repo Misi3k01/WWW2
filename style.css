@@ -3,16 +3,18 @@ body {
 }
 ul {
     list-style-type: none;
-    float:left;
+    float: left;
+    text-align: center;
 }
 ul > li {
-    margin: 10px;
+    margin: 0;
     padding: 0;
     float: left;
     position: relative;
     width: 100px;
     background-color: silver;
-    border-radius: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
     text-align: center;
 }
 ul > li > a {
@@ -36,8 +38,6 @@ ul > li ul {
     top: 20px;
     width: 100px;
     text-align: center;
-    background-color: blueviolet;
-    border: 1px solid black;
 }
 ul li:hover > ul {
     display: block;
